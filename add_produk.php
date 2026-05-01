@@ -3,7 +3,6 @@ include 'config/koneksi.php';
 
 $message = "";
 
-// Mengambil data kategori
 $result_kategori = $conn->query("SELECT * FROM kategori");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
